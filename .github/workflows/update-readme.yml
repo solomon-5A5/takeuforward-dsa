@@ -5,15 +5,18 @@ on:
     branches: [main]
     paths:
       - '01_Arrays/**'
-      - '02_Sorting/**'
-      - '03_Binary_Search/**'
-      - '04_Strings/**'
-      - '05_Linked_Lists/**'
-      - '06_Recursion_and_Backtracking/**'
+      - '02_Linked_List/**'
+      - '03_Greedy/**'
+      - '04_Recursion_and_Backtracking/**'
+      - '05_Binary_Search/**'
+      - '06_Heaps/**'
       - '07_Stacks_and_Queues/**'
-      - '08_Trees/**'
-      - '09_Graphs/**'
-      - '10_Dynamic_Programming/**'
+      - '08_Strings/**'
+      - '09_Binary_Tree/**'
+      - '10_BST/**'
+      - '11_Graphs/**'
+      - '12_Dynamic_Programming/**'
+      - '13_Trie/**'
   workflow_dispatch:  # Allow manual trigger from GitHub UI
 
 jobs:
