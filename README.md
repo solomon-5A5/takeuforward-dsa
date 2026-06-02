@@ -12,12 +12,12 @@
 
 <div align="center">
 
-### 📈 Overall Progress: **0 / 191** problems solved (0%)
+### 📈 Overall Progress: **5 / 191** problems solved (2%)
 
-`░░░░░░░░░░░░░░░░░░░░` 0%
+`█░░░░░░░░░░░░░░░░░░░` 2%
 
 
-☕ **Java:** 0 &nbsp;│&nbsp; 🐍 **Python:** 0 &nbsp;│&nbsp; 📅 **Last Updated:** June 02, 2026 at 09:46 UTC
+☕ **Java:** 5 &nbsp;│&nbsp; 🐍 **Python:** 0 &nbsp;│&nbsp; 📅 **Last Updated:** June 02, 2026 at 10:43 UTC
 
 🟢 Easy: 25 &nbsp;│&nbsp; 🟡 Medium: 93 &nbsp;│&nbsp; 🔴 Hard: 73
 
@@ -54,7 +54,7 @@ Every solution includes detailed complexity analysis, multiple approaches (brute
 
 | Status | Topic | Solved | Progress | Java | Python |
 | :---: | :--- | :---: | :--- | :---: | :---: |
-| ⬜ | **[Arrays](./01_Arrays/)** | ` 0 / 24` | `░░░░░░░░░░░░░░░░░░░░` 0% | 0 | 0 |
+| 🌱 | **[Arrays](./01_Arrays/)** | ` 5 / 24` | `████░░░░░░░░░░░░░░░░` 20% | 5 | 0 |
 | ⬜ | **[Linked List](./02_Linked_List/)** | ` 0 / 18` | `░░░░░░░░░░░░░░░░░░░░` 0% | 0 | 0 |
 | ⬜ | **[Greedy Algorithm](./03_Greedy/)** | ` 0 / 6 ` | `░░░░░░░░░░░░░░░░░░░░` 0% | 0 | 0 |
 | ⬜ | **[Recursion & Backtracking](./04_Recursion_and_Backtracking/)** | ` 0 / 12` | `░░░░░░░░░░░░░░░░░░░░` 0% | 0 | 0 |
@@ -68,7 +68,7 @@ Every solution includes detailed complexity analysis, multiple approaches (brute
 | ⬜ | **[Dynamic Programming](./12_Dynamic_Programming/)** | ` 0 / 15` | `░░░░░░░░░░░░░░░░░░░░` 0% | 0 | 0 |
 | ⬜ | **[Trie](./13_Trie/)** | ` 0 / 7 ` | `░░░░░░░░░░░░░░░░░░░░` 0% | 0 | 0 |
 
-| | **TOTAL** | **`0 / 191`** | `░░░░░░░░░░░░░░░░░░░░` **0%** | **0** | **0** |
+| | **TOTAL** | **`5 / 191`** | `█░░░░░░░░░░░░░░░░░░░` **2%** | **5** | **0** |
 
 <details>
 <summary>📌 Status Legend</summary>
@@ -88,7 +88,7 @@ Every solution includes detailed complexity analysis, multiple approaches (brute
 
 ## 📋 Full Problem Checklist
 
-### ⬜ Arrays  —  `0 / 24`
+### 🌱 Arrays  —  `5 / 24`
 
 <details>
 <summary><b>Arrays</b> (6 problems)</summary>
