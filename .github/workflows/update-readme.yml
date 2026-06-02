@@ -1,0 +1,43 @@
+name: Update README Progress
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '01_Arrays/**'
+      - '02_Sorting/**'
+      - '03_Binary_Search/**'
+      - '04_Strings/**'
+      - '05_Linked_Lists/**'
+      - '06_Recursion_and_Backtracking/**'
+      - '07_Stacks_and_Queues/**'
+      - '08_Trees/**'
+      - '09_Graphs/**'
+      - '10_Dynamic_Programming/**'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run README updater
+        run: python scripts/update_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "docs: 📊 auto-update README progress tracker"
+          git push
